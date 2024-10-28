@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  background-color: currentcolor;
+  width: 100vw;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  padding: 5px 20px;
+  font-size: 25px;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: all 0.3ms;
+}
+
+.activeLink {
+  color: #ff4081;
+}
+
+.link:hover {
+  color: #ff4081;
+}
